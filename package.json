@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/sc-fm-inventory-alexstorm",
+  "name": "@solenopsys/sc-fm-inventory-richteri",
   "version": "0.9.1",
   "scripts": {
     "test": "node index.js",

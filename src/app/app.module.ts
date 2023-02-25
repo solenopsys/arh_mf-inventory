@@ -20,7 +20,7 @@ const routes: Routes = [
 
 export const PROVIDERS_CONF = [
   {provide: 'tables', useValue: TABLES_CONFS},
-  {provide: 'assets_dir', useValue: "/fm/modules/alexstorm/inventory"},
+  {provide: 'assets_dir', useValue: "/fm/modules/richteri/inventory"},
   {provide: 'mod_name', useValue: "inventory"}
 ]
 
