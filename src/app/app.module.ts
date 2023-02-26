@@ -1,11 +1,11 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { RouterModule, Routes } from "@angular/router";
-import { BootstrapComponent, FuiTemplatesModule, TABLE_PAGE } from "@solenopsys/uimatrix-templates";
+import { BootstrapComponent, FuiTemplatesModule, TABLE_PAGE } from "@solenopsys/ui-templates";
 import { ObjectsStatComponent } from "./objects-stat/objects-stat.component";
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { TABLES_CONFS } from "./tables.config";
-import { FuiGridModule } from "@solenopsys/uimatrix-lists";
+import { FuiGridModule } from "@solenopsys/ui-lists";
 import { createNgxs } from "@solenopsys/lib-storage";
 import { environment } from "../environments/environment";
 import { FormsModule } from "@angular/forms";
