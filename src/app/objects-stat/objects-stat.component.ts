@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {DgraphService, FieldType, FormField} from "@solenopsys/lib-dgraph";
-import {DgraphDataBuffered} from "@solenopsys/lib-dgraph";
-import {IdService} from "@solenopsys/lib-globals";
+import {DgraphService, FieldType, FormField} from "@solenopsys/fl-dgraph";
+import {DgraphDataBuffered} from "@solenopsys/fl-dgraph";
+import {IdService} from "@solenopsys/fl-globals";
 
 
 @Component({

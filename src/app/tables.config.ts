@@ -1,5 +1,5 @@
-import {DataPageConfig, FacetType, FieldType} from "@solenopsys/lib-dgraph";
-import {DgraphDataBuffered} from "@solenopsys/lib-dgraph";
+import {DataPageConfig, FacetType, FieldType} from "@solenopsys/fl-dgraph";
+import {DgraphDataBuffered} from "@solenopsys/fl-dgraph";
 
 
 
