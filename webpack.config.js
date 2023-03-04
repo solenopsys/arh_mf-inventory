@@ -48,7 +48,7 @@ module.exports = {
       name: 'inventory',
       filename: 'remoteEntry.js',
       exposes: {
-        './Module': 'packages/modules/inventory/src/app/entry.module.ts',
+        './Module': 'packages/modules/mf-inventory/src/app/entry.module.ts',
       },
       shared: share({
         '@angular/core': {
@@ -114,8 +114,8 @@ module.exports = {
     }),
     iconPlug(
       'packages/fui/icons/src',
-      'dist/modules/richteri/inventory',
-      'packages/modules/inventory/src/assets/menu.json'
+      'dist/modules/mf-richteri/inventory',
+      'packages/modules/mf-inventory/src/assets/menu.json'
     ),
     sharedMappings.getPlugin(),
   ],

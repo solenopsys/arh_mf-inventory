@@ -1,24 +1,24 @@
 {
-  "name": "inventory-richteri",
+  "name": "mf-inventory",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "sourceRoot": "packages/modules/inventory-richteri/src",
+  "sourceRoot": "packages/modules/mf-inventory/src",
   "prefix": "app",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/modules/inventory-richteri",
-        "index": "packages/modules/inventory-richteri/src/index.html",
-        "main": "packages/modules/inventory-richteri/src/main.ts",
-        "polyfills": "packages/modules/inventory-richteri/src/polyfills.ts",
-        "tsConfig": "packages/modules/inventory-richteri/tsconfig.app.json",
+        "outputPath": "dist/modules/mf-inventory",
+        "index": "packages/modules/mf-inventory/src/index.html",
+        "main": "packages/modules/mf-inventory/src/main.ts",
+        "polyfills": "packages/modules/mf-inventory/src/polyfills.ts",
+        "tsConfig": "packages/modules/mf-inventory/tsconfig.app.json",
         "assets": [
-          "packages/modules/inventory-richteri/src/favicon.ico",
-          "packages/modules/inventory-richteri/src/assets"
+          "packages/modules/mf-inventory/src/favicon.ico",
+          "packages/modules/mf-inventory/src/assets"
         ],
-        "styles": ["packages/modules/inventory-richteri/src/styles.css"],
+        "styles": ["packages/modules/mf-inventory/src/styles.css"],
         "scripts": []
       },
       "configurations": {
@@ -37,8 +37,8 @@
           ],
           "fileReplacements": [
             {
-              "replace": "packages/modules/inventory-richteri/src/environments/environment.ts",
-              "with": "packages/modules/inventory-richteri/src/environments/environment.prod.ts"
+              "replace": "packages/modules/mf-inventory/src/environments/environment.ts",
+              "with": "packages/modules/mf-inventory/src/environments/environment.prod.ts"
             }
           ],
           "outputHashing": "all"
@@ -58,10 +58,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "browserTarget": "inventory-richteri:build:production"
+          "browserTarget": "inventory:build:production"
         },
         "development": {
-          "browserTarget": "inventory-richteri:build:development"
+          "browserTarget": "inventory:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -69,15 +69,15 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "browserTarget": "inventory-richteri:build"
+        "browserTarget": "inventory:build"
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "packages/modules/inventory-richteri/**/*.ts",
-          "packages/modules/inventory-richteri/**/*.html"
+          "packages/modules/mf-inventory/**/*.ts",
+          "packages/modules/mf-inventory/**/*.html"
         ]
       }
     },
@@ -85,7 +85,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "packages/modules/inventory-richteri/jest.config.ts",
+        "jestConfig": "packages/modules/mf-inventory/jest.config.ts",
         "passWithNoTests": true
       }
     }
