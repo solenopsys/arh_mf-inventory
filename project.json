@@ -9,7 +9,7 @@
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/inventory-richteri",
+        "outputPath": "dist/modules/inventory-richteri",
         "index": "packages/modules/inventory-richteri/src/index.html",
         "main": "packages/modules/inventory-richteri/src/main.ts",
         "polyfills": "packages/modules/inventory-richteri/src/polyfills.ts",
