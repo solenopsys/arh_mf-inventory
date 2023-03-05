@@ -3,7 +3,7 @@ import {DgraphService} from "@solenopsys/fl-dgraph";
 import {firstValueFrom} from "rxjs";
 
 @Component({
-  selector: 'hyperconverged-dashboard',
+  selector: 'sc-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
   encapsulation: ViewEncapsulation.Emulated
