@@ -7,7 +7,7 @@ import {IdService} from "@solenopsys/fl-globals";
 @Component({
   selector: 'app-objects-stat',
   templateUrl: './objects-stat.component.html',
-  styleUrls: ['./objects-stat.component.css']
+  styleUrls: ['./objects-stat.component.scss']
 })
 export class ObjectsStatComponent implements OnInit { //todo воостановить
 
