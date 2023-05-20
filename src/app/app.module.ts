@@ -20,7 +20,7 @@ const routes: Routes = [
 
 export const PROVIDERS_CONF = [
   {provide: 'tables', useValue: TABLES_CONFS},
-  {provide: 'assets_dir', useValue: "/fm/modules/mf-richteri/inventory"},
+  {provide: 'assets_dir', useValue: "/fm/modules/mf-inventory"},
   {provide: 'mod_name', useValue: "inventory"}
 ]
 
