@@ -6,8 +6,6 @@ import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { TABLES_CONFS } from "./tables.config";
 import { UIListsModule } from "@solenopsys/ui-lists";
-import { createNgxs } from "@solenopsys/fl-storage";
-import { environment } from "../environments/environment";
 import { FormsModule } from "@angular/forms";
 import { DashboardComponent } from "./dashboard/dashboard.component";
 
@@ -31,7 +29,6 @@ export const IMPORTS_CONF = [
   UIListsModule,
   UITemplatesModule,
   RouterModule.forChild(routes),
-  ...createNgxs(!environment.production),
 ]
 
 
