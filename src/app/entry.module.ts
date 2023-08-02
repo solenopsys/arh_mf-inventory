@@ -1,6 +1,6 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { RouterModule, Routes } from "@angular/router";
-import { BootstrapComponent, UITemplatesModule, TABLE_PAGE } from "@solenopsys/ui-templates";
+import {  UITemplatesModule, TABLE_PAGE } from "@solenopsys/ui-templates";
 import { ObjectsStatComponent } from "./objects-stat/objects-stat.component";
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
